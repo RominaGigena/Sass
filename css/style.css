@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&family=Kanit:wght@300;400&display=swap");
+.logo img {
+  width: 240px; }
+  @media (min-width: 576px) and (max-width: 768px) {
+    .logo img {
+      width: 200px; } }
+  @media (min-width: 280px) and (max-width: 575px) {
+    .logo img {
+      width: 150px; } }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background-image: url(../img/verde-musgo.webp); }
+
+h1,
+h2,
+h3 {
+  font-family: "Cookie", cursive;
+  color: #bdc464; }
+
+p {
+  font-family: "Kanit", sans-serif;
+  color: #bdc464; }
+
+.bg-green {
+  background-color: rgba(189, 196, 100, 0.7); }
+
+.redondo {
+  padding: 5%;
+  border-radius: 40%; }
+
+.verde {
+  color: #bdc464; }

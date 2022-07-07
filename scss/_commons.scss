@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(../img/verde-musgo.webp);
+}
+
+h1,
+h2,
+h3 {
+    font-family: $mainFont;
+    color: $textColor;
+}
+
+p {
+	font-family: $secondaryFont;
+    color: $textColor;
+}
+
+//backgrounds
+
+.bg-green {
+    background-color: $mainColor;
+}
+
+//detalles img
+
+.redondo {
+    padding: 5%;
+    border-radius: 40%;
+}
+
+//contacto form
+
+.verde {
+    color: $textColor;
+}
+
